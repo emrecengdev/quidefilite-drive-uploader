@@ -41,8 +41,8 @@ def map(pos):
 
         button = [
             [
-             InlineKeyboardButton(text = 'Support Chat', url = SUPPORT_CHAT_LINK),
-             InlineKeyboardButton(text = 'Feature Request', url = "https://t.me/quiong")
+             InlineKeyboardButton(text = 'Destek Grubu', url = SUPPORT_CHAT_LINK),
+             InlineKeyboardButton(text = 'İletişim', url = "https://t.me/quiong")
             ],
             [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")]
 
