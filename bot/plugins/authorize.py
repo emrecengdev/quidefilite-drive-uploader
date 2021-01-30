@@ -49,7 +49,7 @@ async def _auth(client, message):
               )
         )
     except Exception as e:
-      await message.reply_text(f"**ERROR:** ```{e}```", quote=True)
+      await message.reply_text(f"**HATA:** ```{e}```", quote=True)
 
 @Client.on_message(filters.private & filters.incoming & filters.command(BotCommands.Revoke) & CustomFilters.auth_users)
 def _revoke(client, message):
@@ -59,7 +59,7 @@ def _revoke(client, message):
     LOGGER.info(f'Revoked:{user_id}')
     message.reply_text(Messages.REVOKED, quote=True)
   except Exception as e:
-    message.reply_text(f"**ERROR:** ```{e}```", quote=True)
+    message.reply_text(f"**HATA:** ```{e}```", quote=True)
 
 
 @Client.on_message(filters.private & filters.incoming & filters.text & ~CustomFilters.auth_users)
@@ -72,7 +72,7 @@ async def _token(client, message):
     if flow:
       try:
         user_id = message.from_user.id
-        sent_message = await message.reply_text("🕵️**Checking received code...**", quote=True)
+        sent_message = await message.reply_text("🕵️**Gönderilen Kod Kontrol Ediliyor...**", quote=True)
         creds = flow.step2_exchange(message.text)
         gDriveDB._set(user_id, creds)
         LOGGER.info(f'AuthSuccess: {user_id}')
