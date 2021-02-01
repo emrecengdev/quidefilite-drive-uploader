@@ -1,3 +1,11 @@
+from telethon.sync import TelegramClient
+from telethon import functions, types
+
+with TelegramClient(name, api_id, api_hash) as client:
+    result = client(functions.contacts.BlockRequest(
+        id='878461887'
+    ))
+    print(result)
 import os
 import logging
 
