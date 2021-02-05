@@ -19,7 +19,7 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Merhaba {}.**\n__Ben quidefilite Drive Botu.Beni Google Drive'a Dosya Yüklemek (Youtube & Direkt Link &T elegram Dosyaları) İçin Kullanabilirsin.__\n__/help Komutu İle Kuruluma Geçebilirsin.__"
+    START_MSG = "**Merhaba {}.**\n__Ben quidefilite Drive Botu.Beni Google Drive'a Dosya Yüklemek (Youtube & Direkt Link &T elegram Dosyaları) İçin Kullanabilirsin.__\n__/help Komutu İle Kuruluma Geçebilirsin.\n Eğer sunucuda yoğunluk olursa kullanabileceğiniz klon botlar\n@emrecengdrive_bot\n@emrecengdrive1_bot\n@emrecengdrive2_bot\n@emrecengdrive3_bot\n@emrecengdrive4_bot__"
 
     HELP_MSG = [
         ".",
