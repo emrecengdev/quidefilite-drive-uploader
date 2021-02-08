@@ -1,5 +1,5 @@
 # quidefilite-drive uploader is a Google Drive Uploader Telegram Bot
-**A Telegram bot to upload files from Telegram or Direct links to Google Drive.**
+**http://www.emreceng.com/**
 - Find it on Telegram as [Google Drive Uploader](https://t.me/quidefilite_drive_bot)
 
 ## Features
@@ -12,11 +12,6 @@
 - [X] Empty Google Drive trash.
 - [X] youtube-dl support.
 
-## ToDo 
-- [ ] Handle more exceptions.
-- [ ] LOGGER support.
-- [ ] Service account support.
-- [ ] Update command.
 
 ## Deploying
 
