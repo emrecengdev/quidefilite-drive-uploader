@@ -1,5 +1,5 @@
 # quidefilite-drive uploader is a Google Drive Uploader Telegram Bot
-**http://www.emreceng.com/**
+**telegram files to drive remote uploader (clone supported)**
 - Find it on Telegram as [Google Drive Uploader](https://t.me/quidefilite_drive_bot)
 
 ## Features
